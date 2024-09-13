@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(
   cors({
     //origin: "http://localhost:3000",
-    origin: "https://expensetracker-frontend-tmvh.onrender.com",
+    origin: "https://expensetracker-frontend1-tons.onrender.com",
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
