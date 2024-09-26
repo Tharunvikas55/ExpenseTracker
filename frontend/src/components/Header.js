@@ -118,7 +118,7 @@ const navigate = useNavigate();
 
     <Navbar className="navbarCSS" collapseOnSelect expand="lg" style={{position: 'relative', zIndex: "2 !important"}}>
       {/* <Navbar className="navbarCSS" collapseOnSelect expand="lg" bg="dark" variant="dark"> */}
-        <Navbar.Brand href="/" className="text-black navTitle ">Expense Tracker</Navbar.Brand>
+        <Navbar.Brand href="/homepage" className="text-black navTitle ">Expense Tracker</Navbar.Brand>
         <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             style={{
@@ -137,9 +137,9 @@ const navigate = useNavigate();
         <Navbar.Collapse id="responsive-navbar-nav" style={{color: "white"}}>
           {user ? (
             <>
-            <Nav>
+            {/* <Nav>
                 <Button variant="danger" onClick={handleShowLogout} className="ml-2">Logout</Button>
-              </Nav>
+              </Nav> */}
             </>
           ) : (
 

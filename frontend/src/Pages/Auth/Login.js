@@ -451,7 +451,7 @@ const Login = () => {
 
   useEffect(() => {
     if (localStorage.getItem("user")) {
-      navigate("/");
+      navigate("/homepage");
     }
   }, [navigate]);
 
@@ -482,7 +482,7 @@ const Login = () => {
 
       if (data.success === true) {
         localStorage.setItem("user", JSON.stringify(data.user));
-        navigate("/");
+        navigate("/homepage");
         toast.success(data.message, toastOptions);
       } else {
         toast.error(data.message, toastOptions);

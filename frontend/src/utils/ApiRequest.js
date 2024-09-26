@@ -1,5 +1,5 @@
-//const host = "http://localhost:8081";
-const host = "https://expensetracker-backend-jk4b.onrender.com";
+const host = "http://localhost:8081";
+//const host = "https://expensetracker-backend-jk4b.onrender.com";
 
 export const setAvatarAPI = `${host}/api/auth/setAvatar`;
 export const registerAPI = `${host}/api/auth/register`;
